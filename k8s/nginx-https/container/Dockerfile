@@ -1,4 +1,4 @@
-FROM nginx:stable
+FROM nginx:1.25.3
 LABEL maintainer "contact@ipdb.global"
 WORKDIR /
 RUN apt-get update \
