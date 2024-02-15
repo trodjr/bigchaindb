@@ -1,4 +1,4 @@
-FROM python:3.12.0a3-slim-bullseye
+FROM python:3.13.0a3-slim-bullseye
 
 RUN mkdir -p /src
 RUN pip install --upgrade \
