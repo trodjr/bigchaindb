@@ -1,4 +1,4 @@
-FROM nginx:stable
+FROM nginx:1.26.0-bookworm
 LABEL maintainer "contact@ipdb.global"
 WORKDIR /
 RUN apt-get update \
