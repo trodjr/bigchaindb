@@ -1,4 +1,4 @@
-FROM python:3.12.0a3-slim-bullseye
+FROM python:3.13.0rc3-slim-bullseye
 LABEL maintainer "contact@ipdb.global"
 RUN mkdir -p /usr/src/app
 COPY . /usr/src/app/
