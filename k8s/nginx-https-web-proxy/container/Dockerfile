@@ -1,4 +1,4 @@
-FROM openresty/openresty:alpine
+FROM openresty/openresty:1.25.3.2-1-alpine
 RUN apk update \
     && apk upgrade \
     && apk add bash
